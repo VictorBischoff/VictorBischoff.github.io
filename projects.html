@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="terminal-container">
+        <div class="window-header">
+            <div class="window-buttons">
+                <div class="close"></div>
+                <div class="minimize"></div>
+                <div class="fullscreen"></div>
+            </div>
+            <div class="terminal-title">
+                <span class="folder-icon">📁</span> victor — victor@out_Wendy — ~/projects — -- -zsh — 80×24
+            </div>
+        </div>
+        <div class="terminal">
+            <div class="terminal-body">
+                <!-- Typing text section -->
+                <pre id="typing-text" class="terminal-text"></pre>
+                <!-- Projects list will appear after typing effect -->
+                <ul id="projects-list" class="projects-list hidden">
+                    <li><a href="https://github.com/your-github/project1" target="_blank">Project 1</a></li>
+                    <li><a href="https://github.com/your-github/project2" target="_blank">Project 2</a></li>
+                    <li><a href="https://github.com/your-github/project3" target="_blank">Project 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script_proj.js"></script>
+</body>
+</html>
